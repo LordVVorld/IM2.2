@@ -7,7 +7,6 @@ namespace Q2
 {
     public class RandomVariable : List<double>
     {
-        private readonly Random rand = new Random();
         public double MathExpectation { get; private set; }
         public double Dispersion { get; private set; }
         public double Sigma { get; private set; }

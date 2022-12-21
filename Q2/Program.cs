@@ -67,7 +67,7 @@ namespace Q2
             }
             Console.WriteLine();
 
-            //Нахождение наблюдаемого значения критерия Пирсона
+            //Нахождение наблюдаемого и критического значения критерия Пирсона, выделение числа степеней свободы
             double Hi2Observed = 0;
             for (int index = 0; index < frequencies.Count; index++)
             {
